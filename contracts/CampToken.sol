@@ -73,7 +73,7 @@ contract CampToken is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable,
         uint256 quantity
     ) public
     {
-        
+
     }
     
 }
