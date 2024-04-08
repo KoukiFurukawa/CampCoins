@@ -4,7 +4,7 @@ Transfer 可能な Token. 基本的に支払いはこれで行われる。
 * ChainLink から ETH <-> JPY を取得する機能
 * ETH をユーザーから取得して、レートを基に CTK を転送する機能
   * その際、手数料を取る
-  * SC の保持している CTK が変換量以上の時、保有している CTK をユーザーに送信する
+  * TCKは burn する
 * CTK をユーザーから取得して、レートを基に ETH を転送する機能
 
 ## CampingGround
