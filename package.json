@@ -1,0 +1,15 @@
+{
+  "name": "campcoin",
+  "version": "1.0.0",
+  "description": "技育博にむけた開発",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kouki",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  }
+}
