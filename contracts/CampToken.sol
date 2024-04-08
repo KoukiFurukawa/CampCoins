@@ -27,6 +27,28 @@ contract CampToken is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable,
         override
     {}
 
+    // SCの説明を返す
+    function description()
+        external
+        view
+        virtual
+        override
+        returns (string memory)
+    {
+        return "CampToken <-> ETH. CampToken is StableCoin that relating ETH <-> JPY";
+    }
+
+    // Version を返す
+    function version() external view virtual override returns (uint256) {
+        return 1;
+    }
+
+    // 計算に使う
+    function decimals() external view virtual override returns (uint8) {
+        // For both ETH/USD and JPY/USD, decimals are static being 8
+        return 8;
+    }
+
     // todo --impl ETHをCTKに変換
     function Exchange_ETH_to_CTK(address user) public
     {
@@ -34,5 +56,24 @@ contract CampToken is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable,
     }
 
     // todo --impl ETH <-> JPY を取得
+    function Get_exchange_rate() private
+    {
+
+    }
+
+    // todo --impl 手数料を減らした鋳造量を返す
+    function Get_mint_quantity(uint256 deposit) private
+    {
+        
+    }
+
+    // todo --impl 送信された CTK を burnする
+    function Burn_CTK(
+        address _sender,
+        uint256 quantity
+    ) public
+    {
+        
+    }
     
 }
