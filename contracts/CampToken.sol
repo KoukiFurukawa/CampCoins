@@ -26,4 +26,13 @@ contract CampToken is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable,
         onlyOwner
         override
     {}
+
+    // todo --impl ETHをCTKに変換
+    function Exchange_ETH_to_CTK(address user) public
+    {
+
+    }
+
+    // todo --impl ETH <-> JPY を取得
+    
 }
