@@ -2,6 +2,7 @@
 ## CampToken(CTK)
 Transfer 可能な Token. 基本的に支払いはこれで行われる。
 * ChainLink から ETH <-> JPY を取得する機能
+  * 残念ながら JPY <-> ETH はないので、 USD <-> ETH で代用
 * ETH をユーザーから取得して、レートを基に CTK を転送する機能
   * その際、手数料を取る
   * TCKは burn する
@@ -20,6 +21,9 @@ Transfer 不可能な Token. 信頼スコアとして付与
   * 良質なレビューを書く で付与
 * 預入金を回収しない選択をした時、付与する機能
 
+
+* https://qiita.com/ryu-yama/items/4c37d5ff0fbc5364e569
+* [Payable , Withdraw](https://cattail.co.jp/techcode/2784/)
 
 # Sample Hardhat Project
 
