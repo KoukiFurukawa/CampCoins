@@ -24,6 +24,7 @@ Transfer 不可能な Token. 信頼スコアとして付与
 
 * https://qiita.com/ryu-yama/items/4c37d5ff0fbc5364e569
 * [Payable , Withdraw](https://cattail.co.jp/techcode/2784/)
+* https://vsupalov.com/ethers-call-payable-solidity-function/
 
 # Sample Hardhat Project
 
